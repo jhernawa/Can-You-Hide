@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+  	padding: 0;
+  	font-family: Helvetica;
+	background-color: white;
+	
+}
+
+.main-box{
+	width: 100vw;
+	max-width: 100%;
+	height: 100vh;
+	max-height: 100%;
+	text-align: center;
+	background-image: url('/Can_You_Hide/Assets/witch-left.png');
+	background-size: cover;
+	background-color: #555555;
+}
+.outer-box{
+	/*background-color: red;*/
+	margin-top: 150px;
+	display:inline-block;
+	width: 650px;
+	height: 450px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.inner-box{
+	margin-top: 5px;
+	display:inline-block;
+	width: 640px;
+	height: 440px;
+	border: 2px solid black;
+	font-size: 17px;
+	/*background-color: blue;*/
+}
+
+.to{
+	background-color: black;
+	color: #2a6bbe;
+	text-align: left;
+}
+
+.list{
+	text-center: left;
+}
+
+#button-fly{
+	border: 2px solid #2a6bbe;
+	background-color: black;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	color: #2a6bbe;
+	
+}
